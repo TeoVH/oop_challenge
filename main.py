@@ -9,6 +9,13 @@ class Pokemon:
 
     """
     Attributes:
+        name
+        number
+        type
+        height
+        weight
+        attack
 
     Methods:
+        
     """
