@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+import random
+import numpy
 
 """
 oop_challenge
@@ -21,3 +23,15 @@ class Pokemon:
     """
 
     def __init__(self, name="", number=0, typep="", height="", weight="", attack=0, score=0):
+        self.name = name
+        self.number = number
+        self.typep = typep
+        self.height = height
+        self.weight = weight
+        self.score = score
+    
+    def attack(self, attack):
+        self.attack = attack 
+        attack = random.randrange(0.0, 1.0)
+
+
