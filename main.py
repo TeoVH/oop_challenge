@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+from numpy import random
 
 """
 oop_challenge
@@ -17,7 +18,8 @@ class Pokemon:
         attack
         score
 
-    Methods: 
+    Methods:
+        attack
     """
 
     def __init__(self, name="", number=0, typep="", height="", weight="", attack=0, score=0):
