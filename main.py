@@ -85,5 +85,5 @@ pokemonM = Pokemon("Mewtwo", 150, "Psychic", "1.87m", "135Kg", 7)
 print(pokemonC)
 print(pokemonM)
 fight1 = Battle(pokemonC, pokemonM)
-
-# fuck me please
+a = Pokemon(pokemonC)
+print(a)
