@@ -11,11 +11,13 @@ class Pokemon:
     Attributes:
         name
         number
-        type
+        typep
         height
         weight
         attack
+        score
 
-    Methods:
-        
+    Methods: 
     """
+
+    def __init__(self, name="", number=0, typep="", height="", weight="", attack=0, score=0):
